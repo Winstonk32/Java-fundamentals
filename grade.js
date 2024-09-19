@@ -1,9 +1,5 @@
-function displayGradeMessage() {
-    const grade = document.getElementById('gradeInput').value;
-    const messageElement = document.getElementById('resultMessage');
-
-
-    switch(grade.toUpperCase()) {
+function checkGrade(grade) {
+    switch (grade) {
         case 'A': 
             console.log("Excellent! You scored an A.");
             break;
@@ -24,3 +20,4 @@ function displayGradeMessage() {
     }
 }
 
+checkGrade('B');
