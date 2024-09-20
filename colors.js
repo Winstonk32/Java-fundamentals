@@ -21,6 +21,13 @@ console.log(colors.sort())
 //Find the length of the array
 console.log(colors.length)
 
+//Iterate through the array to print all the colors
+for (let i = 0; i < colors.length; i++) {
+console.log(colors[i])
+}
+
+
+
 //Remove the last element.
 colors.pop()
 console.log(colors)
